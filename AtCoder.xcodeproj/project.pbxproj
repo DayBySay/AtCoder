@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19468A3D254B9F87006E1E4A /* B-VariousDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19468A3C254B9F87006E1E4A /* B-VariousDistances.swift */; };
+		19468A43254BA046006E1E4A /* B-MixJuice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19468A42254BA046006E1E4A /* B-MixJuice.swift */; };
+		19468A49254BA0C2006E1E4A /* Humei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19468A48254BA0C2006E1E4A /* Humei.swift */; };
 		19D89EEB25445CF9002C8509 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D89EEA25445CF9002C8509 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19468A3C254B9F87006E1E4A /* B-VariousDistances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B-VariousDistances.swift"; sourceTree = "<group>"; };
+		19468A42254BA046006E1E4A /* B-MixJuice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B-MixJuice.swift"; sourceTree = "<group>"; };
+		19468A48254BA0C2006E1E4A /* Humei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humei.swift; sourceTree = "<group>"; };
 		19D89EE725445CF9002C8509 /* AtCoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AtCoder; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D89EEA25445CF9002C8509 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19468A3B254B9F5B006E1E4A /* abc180 */ = {
+			isa = PBXGroup;
+			children = (
+				19468A3C254B9F87006E1E4A /* B-VariousDistances.swift */,
+			);
+			path = abc180;
+			sourceTree = "<group>";
+		};
+		19468A41254BA034006E1E4A /* abc171 */ = {
+			isa = PBXGroup;
+			children = (
+				19468A42254BA046006E1E4A /* B-MixJuice.swift */,
+			);
+			path = abc171;
+			sourceTree = "<group>";
+		};
+		19468A47254BA0B4006E1E4A /* WasuretaYatsu */ = {
+			isa = PBXGroup;
+			children = (
+				19468A48254BA0C2006E1E4A /* Humei.swift */,
+			);
+			path = WasuretaYatsu;
+			sourceTree = "<group>";
+		};
+		19468A4C254BA0D1006E1E4A /* Archives */ = {
+			isa = PBXGroup;
+			children = (
+				19468A47254BA0B4006E1E4A /* WasuretaYatsu */,
+				19468A41254BA034006E1E4A /* abc171 */,
+				19468A3B254B9F5B006E1E4A /* abc180 */,
+			);
+			path = Archives;
+			sourceTree = "<group>";
+		};
 		19D89EDE25445CF9002C8509 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				19D89EEA25445CF9002C8509 /* main.swift */,
+				19468A4C254BA0D1006E1E4A /* Archives */,
 			);
 			path = AtCoder;
 			sourceTree = "<group>";
@@ -119,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19468A3D254B9F87006E1E4A /* B-VariousDistances.swift in Sources */,
 				19D89EEB25445CF9002C8509 /* main.swift in Sources */,
+				19468A49254BA0C2006E1E4A /* Humei.swift in Sources */,
+				19468A43254BA046006E1E4A /* B-MixJuice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
